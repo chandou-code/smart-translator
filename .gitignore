@@ -1,0 +1,37 @@
+# Dependencies
+.venv/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Build outputs
+unpackage/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Environment
+.env
+.env.local
+
+# UniApp specific
+*-temp.*
