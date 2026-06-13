@@ -1,63 +1,42 @@
-# Smart Translator - English Learning Assistant
+# 智能翻译助手 - Smart Translator
 
-A lightweight UniApp-based English learning assistant with keyword annotations, smart sentence selection, and text-to-speech capabilities. **Pure frontend implementation - no backend required.**
+一个基于 UniApp 的英语学习助手，支持关键词汇标注、智能断句、语音朗读等功能。**纯前端实现，无需后端服务。**
 
-## Features
+## 功能特性
 
-### 1. Keyword Annotations
-- Paste English text with translations in brackets
-- Example: `expanded(拓展)` or `expanded(拓展)`
-- Keywords displayed with purple dashed underline
-- Tap keywords to show/hide translations
-- **100% frontend - no backend needed**
+### 1. 关键词汇标注
+- 粘贴带有括号翻译的英文文本
+- 例如：`expanded（拓展）` 或 `expanded(拓展)`
+- 关键词显示为紫色虚线下划线
+- 点击关键词可显示/隐藏翻译
 
-### 2. Smart Sentence Selection
-- Long-press any sentence to select the entire sentence
-- Automatically expands to complete sentences
-- Supports Chinese and English punctuation
-- **100% frontend - no backend needed**
+### 2. 智能断句
+- 长按任意句子自动选中整句
+- 自动扩展到完整句子
+- 支持中英文标点符号
 
-### 3. Custom Long-Press Menu
-- Custom popup menu on long-press
-- Read aloud and copy functionality
-- Menu positioned above touch point
+### 3. 自定义长按菜单
+- 长按弹出操作菜单
+- 支持朗读和复制功能
+- 菜单显示在点击位置上方
 
-### 4. Text-to-Speech
-- Browser TTS (H5) / Native TTS (App)
-- Read selected sentences aloud
+### 4. 语音朗读
+- H5 端：使用浏览器 Web Speech API
+- App 端：使用原生 TTS 引擎
 
-## Quick Start
+## 快速开始
 
-### Development
+### 开发
+1. 使用 HBuilderX 打开 `翻译前端uniapp` 文件夹
+2. 运行项目：H5 或 Android
 
-1. Open `翻译前端uniapp` folder in HBuilderX
+### APK 安装
+APK 文件位于：`翻译前端uniapp/unpackage/release/apk/`
 
-2. Run:
-   - H5: Run → Run to Browser → Chrome
-   - Android: Run → Run to Device/Emulator
+## 技术栈
+- **框架**: UniApp (Vue 3)
+- **UI**: 现代卡片式设计，紫色渐变主题
+- **平台**: H5、Android App、微信小程序
 
-3. **Works standalone - no backend needed**
-
-### APK Installation
-
-Latest APK: `翻译前端uniapp/unpackage/release/apk/`
-
-## Tech Stack
-
-- **Framework**: UniApp (Vue 3)
-- **UI**: Modern card design with purple gradient theme
-- **TTS**: Web Speech API / Native TTS
-- **Platforms**: H5, Android App, WeChat Mini Program
-
-## Usage
-
-1. Paste English text with `word(translation)` format
-2. Tap "解析文本" (Parse) button
-3. Keywords show purple dashed underlines
-4. Tap keywords to show/hide translations
-5. Long-press any sentence to highlight and show menu
-6. Tap "朗读" to read, "复制" to copy
-
-## License
-
+## 开源协议
 MIT License
